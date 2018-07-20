@@ -5,6 +5,7 @@ import EmployeeList from './components/EmployeeList';
 import EmployeeCreate from './components/EmployeeCreate';
 
 const RouterComponent = () => {
+  console.ignoredYellowBox = ['Setting a timer'];
   return (
     <Router>
       <Scene key='root' hideNavBar>
